@@ -201,7 +201,7 @@ int Move(Game &g)
 	next.X = head.X + g.dx;
 	next.Y = head.Y + g.dy; //проверка следующей точки по направлению
 
-	if (next.X < 3 || next.Y < 3 || next.X > 60 || next.Y > 23)//не уперлись ли в стену?
+	if (next.X < 3 || next.Y < 3 || next.X > 60 || next.Y > 23)// не уперлись ли в стену?
 		return STENA;
 
 	if (n > 4)
