@@ -59,7 +59,7 @@ public:int nap; //направление
 };
 
 
-void PlusJabloko(Game &g) //Функция разброски яблок
+void PlusJabloko(Game &g) // Функция разброски яблок
 {
 	int i, x, y;
 	int n = g.gaduka.PCount;
